@@ -16,6 +16,8 @@ Primary style
 	box-sizing: border-box;
 }
 
+
+
 html {
 	font-size: 62.5%;
 }
@@ -25,7 +27,7 @@ body {
 		size: 1.6rem;
 	} 
 	color: $color-3; // variables inside partials > _variables.scss
-	background-color: $color-1;
+	background-color: lightslategray;
 	font-family: sans-serif;
 	@include font-smoothing;
 }
@@ -335,14 +337,14 @@ Portfolio Projects
 	.row > li.project-2 {
 
 		.project-image::before {
-			background-image: url(../img/photo-2.jpg);
+			background-image: url(../img/jm2.png);
 		}
 	}
 
 	.row > li.project-3 {
 		
 		.project-image::before {
-			background-image: url(../img/photo-3.jpg);
+			background-image: url(../img/crimsoncrepes.jpg);
 		}
 	}
 
@@ -356,14 +358,14 @@ Portfolio Projects
 	.row > li.project-5 {
 		
 		.project-image::before {
-			background-image: url(../img/photo-5.jpg);
+			background-image: url(../img/iu.jpg);
 		}
 	}
 
 	.row > li.project-6 {
 		
 		.project-image::before {
-			background-image: url(../img/photo-6.jpg);
+			background-color: darkseagreen;
 		}
 	}
 
@@ -378,14 +380,14 @@ Portfolio Projects
 	.row > li.project-8 {
 		
 		.project-image::before {
-			background-image: url(../img/photo-8.jpg);
+			background-color: url(../img/photo-9.jpg);
 		}
 	}
 
 	.row > li.project-9 {
 		
 		.project-image::before {
-			background-image: url(../img/photo-9.jpg);
+			background-color: lightblue;
 		}
 	}
 
@@ -403,11 +405,25 @@ Portfolio Projects
 	}
 
 	h2 {
+        width: 90%;
+        max-width: 900px;
+        text-align: center;
+        margin: 2em auto;
 		color: $color-3;
 		font-size: 2.2rem;
 		font-weight: bold;
 		font-family: $heading;
 	}
+    
+    h3{
+        width: 90%;
+        max-width: 800px;
+        margin: 2em auto;
+        font-size: 1.5em;
+        color: $color-1;
+        font-weight: 300;
+        line-height: 1.5;
+    }
 
 	.project-content {
 		position: absolute;
@@ -431,6 +447,14 @@ Portfolio Projects
 			line-height: 1.6;
 			color: tint($color-1, 20%);
 		}
+        
+        h4{
+          			width: 90%;
+			max-width: 850px;
+			margin: 2em auto;
+            font-weight: 400;
+            font-size: 1.4em;
+        }
 	}
 
 	&.project-has-transition .row > li {

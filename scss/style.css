@@ -12,7 +12,7 @@ html {
 body {
   font-size: 1.6rem;
   color: #edeade;
-  background-color: dimgray;
+  background-color: lightslategray;
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -46,7 +46,7 @@ Portfolio Navigation
     .cd-3d-portfolio-navigation li a {
       display: inline-block;
       color: #edeade;
-      border: 2px solid #616161;
+      border: 2px solid #391b28;
       padding: .6em;
       transition: all .2s; }
       .cd-3d-portfolio-navigation li a:hover {
@@ -133,7 +133,7 @@ Portfolio Projects
       left: 0;
       height: 100vw;
       width: 100%;
-      background: #434343;
+      background: #0f070b;
       transform: translateZ(50vw) rotateX(90deg);
       transform-origin: bottom center;
       transition: visibility 0s 0.6s; }
@@ -209,7 +209,7 @@ Portfolio Projects
       /* this is the project background image */
       z-index: 1;
       height: 240%;
-      background-color: #505050;
+      background-color: #201017;
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -217,7 +217,7 @@ Portfolio Projects
       /* this is the project image cover layer - this is visible only during a rotation of the parallelepiped (while the project is disappearing) */
       z-index: 3;
       height: 100%;
-      background: #1d1d1d;
+      background: black;
       opacity: 0;
       transition: opacity .5s; }
   .cd-3d-portfolio .projects .row > li:not(.selected) .project-image::after {
@@ -231,22 +231,22 @@ Portfolio Projects
     background-color: #43202f;
     background-image: url(../img/logobig.png); }
   .cd-3d-portfolio .projects .row > li.project-2 .project-image::before {
-    background-image: url(../img/photo-2.jpg); }
+    background-image: url(../img/jm2.png); }
   .cd-3d-portfolio .projects .row > li.project-3 .project-image::before {
-    background-image: url(../img/photo-3.jpg); }
+    background-image: url(../img/crimsoncrepes.jpg); }
   .cd-3d-portfolio .projects .row > li.project-4 .project-image::before {
     background-image: url(../img/synergy.jpg); }
   .cd-3d-portfolio .projects .row > li.project-5 .project-image::before {
-    background-image: url(../img/photo-5.jpg); }
+    background-image: url(../img/iu.jpg); }
   .cd-3d-portfolio .projects .row > li.project-6 .project-image::before {
-    background-image: url(../img/photo-6.jpg); }
+    background-color: darkseagreen; }
   .cd-3d-portfolio .projects .row > li.project-7 .project-image::before {
     background-color: dodgerblue;
     background-image: url(../img/docker.png); }
   .cd-3d-portfolio .projects .row > li.project-8 .project-image::before {
-    background-image: url(../img/photo-8.jpg); }
+    background-color: url(../img/photo-9.jpg); }
   .cd-3d-portfolio .projects .row > li.project-9 .project-image::before {
-    background-image: url(../img/photo-9.jpg); }
+    background-color: lightblue; }
   .cd-3d-portfolio .projects .project-title {
     position: relative;
     z-index: 2;
@@ -259,10 +259,22 @@ Portfolio Projects
     will-change: transform;
     transition: transform 0.6s cubic-bezier(0.5, 0, 0.1, 1); }
   .cd-3d-portfolio .projects h2 {
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+    margin: 2em auto;
     color: #edeade;
     font-size: 2.2rem;
     font-weight: bold;
     font-family: "Lora", serif; }
+  .cd-3d-portfolio .projects h3 {
+    width: 90%;
+    max-width: 800px;
+    margin: 2em auto;
+    font-size: 1.5em;
+    color: #43202f;
+    font-weight: 300;
+    line-height: 1.5; }
   .cd-3d-portfolio .projects .project-content {
     position: absolute;
     z-index: 1;
@@ -280,7 +292,13 @@ Portfolio Projects
       max-width: 800px;
       margin: 2em auto;
       line-height: 1.6;
-      color: #878787; }
+      color: #694d59; }
+    .cd-3d-portfolio .projects .project-content h4 {
+      width: 90%;
+      max-width: 850px;
+      margin: 2em auto;
+      font-weight: 400;
+      font-size: 1.4em; }
   .cd-3d-portfolio .projects.project-has-transition .row > li {
     /* the project-has-transition class is used to add a transition to the tranform property of the single projects - it's added when a project is selected (before opening it) and removed when a project is colsed (when the closing animation is finished) */
     transition: transform 0.6s cubic-bezier(0.5, 0, 0.1, 1), opacity 0s 0.6s; }
