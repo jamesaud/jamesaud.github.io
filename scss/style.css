@@ -239,6 +239,7 @@ Portfolio Projects
   .cd-3d-portfolio .projects .row > li.project-5 .project-image::before {
     background-image: url(../img/iu.jpg); }
   .cd-3d-portfolio .projects .row > li.project-6 .project-image::before {
+    background-image: url(../img/d.png);
     background-color: darkseagreen; }
   .cd-3d-portfolio .projects .row > li.project-7 .project-image::before {
     background-color: dodgerblue;
