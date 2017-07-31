@@ -43,6 +43,18 @@ Portfolio Navigation
 
 -------------------------------- */
 
+.top-links{
+    padding-bottom: 20px;
+    a{
+        padding-right: 15px;
+        color: #dddddd;
+        &:hover{
+            color: white;
+            text-decoration: underline;
+    }
+    }
+}
+
 .cd-3d-portfolio-navigation {
 	width: 100%;
 	height: 25vh;

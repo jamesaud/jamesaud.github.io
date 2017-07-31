@@ -22,7 +22,7 @@ jQuery(document).ready(function($){
 	Portfolio3D.prototype.bindEvents = function() {
 		var self = this;
 
-		this.navigation.on('click', 'a:not(.selected)', function(event){
+		this.navigation.on('click', 'li > a:not(.selected)', function(event){
 			//update visible projects when clicking on the filter
 			event.preventDefault();
 			if( !self.animating ) {
