@@ -9,10 +9,10 @@
 							</p>
                             <p>We were assigned "Customers", Graduate Students that represented real life business customers. We came to them with software ideas, and they came up with a set of requirements for a software solution that we had to implement. These projects ranged from a cooking video website, to a fantasy soccer website, to  a social media website.</p>
                                    
-                            <p>Our team developed a platform called "JMatcher", a Tinder-like job matching site. The idea is to match you to a job based the best fit. This was a 5 2-week sprint project where we had to implement many different features. </p>
+                            <p>Our team developed a platform called "JMatcher", a Tinder-like job matching site. The idea is to match you to a job based on the best fit. This was a five 2-week sprint project where we had to implement many different features. </p>
                             <h2>What I Did</h2>
 							<p>
-				                My team, (and most of the class), constituted of Masters students. However, I ended up leading our team in the archetecture design and development of our sofware solution.
+				                My team, (and most of the class), constituted of Masters students. However, I ended up leading our team in the architecture design and development of our software solution.
 							</p>
                      
                             <p> Our framework of choice was Django (Python based web framework), mostly due to my prior experience at developing web apps. My rational was that it is "batteries included", and is excellent for rapid development and prototyping. 
@@ -85,7 +85,7 @@ var DATA = {
         title: 'Job Social Network Project',
         subtitle: 'Leading a team in an agile environment',
         date: 'January - May 2017',
-        image: '/static/img/jm1.png',
+        image: '/static/img/match.jpg',
         description: 'Leading a team of Masters students in a software engineering competition, focused on lean development practices.'
 }
 

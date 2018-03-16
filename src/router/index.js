@@ -10,6 +10,8 @@ import jmatcher from '@/components/entries/jmatcher'
 import crimsoncrepes from '@/components/entries/crimsoncrepes'
 import schoolprojects from '@/components/entries/schoolprojects'
 import library from '@/components/entries/library'
+import iot from '@/components/entries/iot'
+import kaust from '@/components/entries/kaust'
 
 
 Vue.use(Router)
@@ -18,6 +20,7 @@ export default new Router({
   scrollBehavior (to, from, savedPosition) {
     return { x: 0, y: 0 }
   },
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -58,6 +61,16 @@ export default new Router({
       path: '/entry/library',
       name: 'Library',
       component: library
+    },
+    {
+      path: '/entry/iot',
+      name: 'Iot',
+      component: iot
+    },
+    {
+      path: '/entry/kaust',
+      name: 'Kaust',
+      component: kaust
     }
   ]
 })

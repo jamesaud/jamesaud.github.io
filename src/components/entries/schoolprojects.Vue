@@ -44,6 +44,7 @@ var DATA = {
       name: 'School Projects',
         title: 'School Projects',
         subtitle: 'Variety of Academic Projects',
+        image: '/static/img/iunice.jpg',
         date: '2013 - 2017',
         description: 'Coding, coding, and coding!'
 }

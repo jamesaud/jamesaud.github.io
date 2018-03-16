@@ -17,7 +17,7 @@
                 </div>
                 <h1 class='white--text display-3 mb-1'>James Audretsch</h1>
                 
-                <h4 class='white--text headline'>Software Developer. Entrepeneur.</h4>
+                <h4 class='white--text headline'>Software Developer. Entrepreneur.</h4>
                 
                 <div class='mt-3 social-links'>
 
@@ -99,7 +99,7 @@
                class='mb-3'
                >
                 <v-card-title primary-title>
-                  <div class="caption grey--text">{{article.date}}</div>
+                  <div class="caption grey--text article-date">{{article.date}}</div>
                   <div>
                     <div class="subheading">{{article.title}}</div>
                     <span class="grey--text">{{article.subtitle}}</span>
@@ -164,6 +164,22 @@ var CATEGORIES = {
         };
 
 var POSTS = [
+          {
+            category: CATEGORIES.Project,
+            title: Entries.iot.title,
+            date: Entries.iot.date,
+            content: Entries.iot.description,
+            imgUrl: Entries.iot.image,
+            urlName: 'Iot'
+          },
+          {
+            category: CATEGORIES.Professional,
+            title: Entries.kaust.title,
+            date: Entries.kaust.date,
+            content: Entries.kaust.description,
+            imgUrl: Entries.kaust.image,
+            urlName: 'Kaust'
+          },
           {
             category: CATEGORIES.Entrepeneurship,
             title: Entries.reuserat.title,
@@ -263,16 +279,17 @@ export default {
         ],
 
         articles: [
-          {
-            date: '2/3/18',
-            title: 'Docker with VENoM',
-            subtitle: 'Local development stack tutorial',
-            url: 'https://medium.com/@audretschjames/understanding-docker-as-if-it-were-a-gameboy-96c96392efbf'
-          },
+          
           {
             date: '2/25/18',
             title: 'Understanding Docker if it were a Game Boy',
             subtitle: 'The Ultimate Docker Tutorial',
+            url: 'https://medium.com/@audretschjames/understanding-docker-as-if-it-were-a-gameboy-96c96392efbf'
+          },
+          {
+            date: '2/3/18',
+            title: 'Docker with VENoM',
+            subtitle: 'Local development stack tutorial',
             url: 'https://medium.com/@audretschjames/understanding-docker-as-if-it-were-a-gameboy-96c96392efbf'
           }
         ],
@@ -334,6 +351,10 @@ export default {
     padding-bottom: 4em;
   }
   
+  .article-date{
+    width: 100%;
+  }
+
 </style>
 
 <style>

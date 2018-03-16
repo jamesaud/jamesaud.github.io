@@ -6,6 +6,8 @@ import crimsoncrepes from '@/components/entries/crimsoncrepes'
 import jmatcher from '@/components/entries/jmatcher'
 import schoolprojects from '@/components/entries/schoolprojects'
 import library from '@/components/entries/library'
+import iot from '@/components/entries/iot'
+import kaust from '@/components/entries/kaust'
 
 
 export default {
@@ -15,6 +17,8 @@ export default {
         jmatcher,
         crimsoncrepes,
         schoolprojects,
-        library
+        library,
+        iot,
+        kaust
 }
 </script>

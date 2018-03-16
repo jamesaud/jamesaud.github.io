@@ -2,6 +2,12 @@
 
 > A Vue.js project
 
+## Deploy
+
+npm run build
+
+vue-cli-ghpages --branch master
+
 ## Build Setup
 
 ``` bash
