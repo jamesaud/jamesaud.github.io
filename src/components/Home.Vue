@@ -157,7 +157,7 @@ var CATEGORIES = {
               color: "green"
             },
             Entrepeneurship: {
-              name: "Entrepeneurship",
+              name: "Entrepreneurship",
               icon: "lightbulb_outline",
               color: "orange"
             }
@@ -279,18 +279,23 @@ export default {
         ],
 
         articles: [
-          
           {
-            date: '2/25/18',
+            date: 'May 8, 2018',
+            title: 'Javascript "Bind" in Python',
+            subtitle: 'Advanced Python Concepts',
+            url: 'https://medium.com/@audretschjames/replicating-javascript-bind-in-python-a56d6779db68'
+          },
+          {
+            date: 'Februrary 25, 2018',
             title: 'Understanding Docker if it were a Game Boy',
             subtitle: 'The Ultimate Docker Tutorial',
             url: 'https://medium.com/@audretschjames/understanding-docker-as-if-it-were-a-gameboy-96c96392efbf'
           },
           {
-            date: '2/3/18',
+            date: 'Februrary 3, 2018',
             title: 'Docker with VENoM',
             subtitle: 'Local development stack tutorial',
-            url: 'https://medium.com/@audretschjames/understanding-docker-as-if-it-were-a-gameboy-96c96392efbf'
+            url: 'https://medium.com/@audretschjames/venom-stack-docker-setup-for-local-development-457093761ad1'
           }
         ],
 

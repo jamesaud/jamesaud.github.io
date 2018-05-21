@@ -9,19 +9,31 @@
 
 
                             <h2>What I Did</h2>
-							<p>
-                                
-								Researching using Neural Networks for earthquake detection. 
-							</p>
-                            <p>
+
+                                        <p>
                                Using big data from the global earthquake network, I'm working on discriminating earthquake signals from noise. 
-                               Moreover, the network needs to determine whether the signal is a 'local' earthquake (inside the network of sensors)  or 'non-local'. 
 
                             </p>
 
-                            <p>ConvNets, RNN, and other techniques are being experimented with. 
+                            <p>Experimenting with Convolutional Neural Nets, RNN, and other techniques. 
                                 My idea is to use spectral images of earthquakes (spectrograms over a time window), and have  neural networks learn key features of earthquakes spectral and time information.</p>
-                                                    
+                                        
+							<p>
+                                								
+Conducting research into convoluted neural nets for earthquake detection, resulting in industry leading 99.9% accuracy.
+</p>
+
+<p>
+Built software toolbox in Python for distributed and parallel batch data analysis, processing 2 million+ waveforms and 150+ GB of data.
+</p>
+
+<p>
+Interacting with global seismic databases via REST APIs and designing reusable object oriented Python libraries.
+</p>
+<p>
+Utilizing a data science tech stack including Jupyter Notebook, Python 3.6, NumPy, SciPy, PyTorch and Docker.
+							</p>
+            
 
                             <h2>Why It Matters</h2>
 
@@ -49,7 +61,10 @@
                             <h2>Show Me The Code!</h2>
 
                             
-                            <p>Github: <a href="https://github.com/jamesaud/earthquake-recognition"  target="_blank">https://github.com/jamesaud/earthquake-recognition</a>
+                            <p>Github 1: <a href="https://github.com/jamesaud/seismic-analysis-toolbox"  target="_blank">https://github.com/jamesaud/seismic-analysis-toolbox</a>
+							 
+                            </p>
+                            <p>Github 2: <a href="https://github.com/jamesaud/earthquake-detector-9000"  target="_blank">https://github.com/jamesaud/earthquake-detector-9000</a>
 							 
                             </p>
                         

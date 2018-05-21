@@ -39,7 +39,7 @@
               <p>No code, but here's the Kickstarter project that got us up and running! Many thanks to all of our donors: <a href="https://www.kickstarter.com/projects/1534986239/bloomington-crepe-project-0">https://www.kickstarter.com/projects/1534986239/bloomington-crepe-project-0</a></p>
 						
                             <h2>Images</h2>
-                            <p>Yes, I look like a kid.</p>
+                            <p>I was quite young at the time.</p>
                             <img style="width: 100%; height: auto; max-width: 400px;" src="/static/img/crepe1.jpg">
                             <img style="width: 100%; height: auto; max-width: 250px;" src="/static/img/crepe2.jpg">
 							

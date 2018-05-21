@@ -18,7 +18,7 @@
                             <p> 2. Led a team to develop a Django-based "seller" platform to integrate with Shopify. 
                             </p>
                         
-                            <p>3. Co-Won the Venture Fellowship award, a $5,000 entrepreneurship award through the Informatics department at Indiana University. The award includes mentorship for 3 months in the Summer by a local Angel Investor, Business Professor, and another representative.</p>
+                            <p>3. Co-Won the Venture Fellowship award, a $10,000 entrepreneurship award through the Informatics department at Indiana University. The award includes mentorship for 3 months in the Summer by a local Angel Investor, Business Professor, and another representative.</p>
                             
                             <p>We have a synchronized seller platform with the Shopify hosted buyer platform, utilizing Webhooks and the Shopify API. Payment integration so that sellers can cash out via Bank, Check, and Paypal.</p>
                             <p>We are trying to push our online store as we make initial sales through other channels.</p>
